@@ -3,7 +3,7 @@
     <head>
         <h1>This is a Heading</h1>
         <link rel="stylesheet" href="Task 2.css">
-        <link rel="script" href="Task 3.js">
+        <script src="Task 3.js"></script>
     </head>
     <body>
         <style>
@@ -47,10 +47,7 @@
             </div>
         </div>
         <br></br>
-        <button type="button"
-        onclick="document.getElementById('date_time_button').innerHTML = Date()">
-        Click and see Date and Time.</button>
-
-        <p id="date_time_button"></p>
+        <button onclick="getDate()">Get Date</button>
+        <p id="date"></p>
     </body>
 </html>
